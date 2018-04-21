@@ -32,7 +32,6 @@ module.exports = {
     //     }
     //   }
 
-    ],
     /*
     ** Run ESLint on save
     */
