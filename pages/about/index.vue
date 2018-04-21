@@ -2,7 +2,7 @@
     <div>
       <h2>About Index Page</h2>
       <ul>
-        <li><a href="/">HOME</a></li>
+        <li><nuxt-link :to="{name:'index'}">HOME</nuxt-link></li>
       </ul>
     </div>
 </template>
