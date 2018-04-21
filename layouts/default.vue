@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>nuxt.js自学 这是默认布局。这个是在layouts中，修改的话不用重启服务器，工作中一般是定义默认布局，比较少用默认模板</p>
     <nuxt/>
   </div>
 </template>
