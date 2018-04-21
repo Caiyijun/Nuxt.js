@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="diss">
+      <!--<img src="../static/1.png" alt="">-->
+      <!--<img src="~static/1.png" alt="">-->
+    </div>
     <ul>
       <li><nuxt-link :to="{name:'index'}">HOME</nuxt-link></li>
       <li><nuxt-link :to="{name:'about'}">ABOUT</nuxt-link></li>
@@ -19,5 +23,9 @@ export default {
 </script>
 
 <style>
-
+.diss{
+  width: 300px;
+  height: 100px;
+  background: url("~static/1.png");
+}
 </style>
